@@ -1,6 +1,5 @@
-Base de datos:
-
-A= {
+group:Base de datos
+A = {
 author_id, first_name, last_name
 1, 'John', 'McCarthy'
 3, 'Dennis', 'Ritchie'
@@ -13,7 +12,7 @@ author_id, first_name, last_name
 4, 'Roy', 'Batty'
 }
 
-B= {
+B = {
 book_id,book_title,month,year,editor
 1,CACM,April,1960,8
 2,CACM,July,1974,8
@@ -26,7 +25,7 @@ book_id,book_title,month,year,editor
 
 }
 
-P= {
+P = {
 pub_id,title,book_id
 
 1,LISP,1
@@ -38,7 +37,7 @@ pub_id,title,book_id
 
 }
 
-AP= {
+AP = {
 author_id,pub_id,author_position
 1,1,1
 2,2,1
